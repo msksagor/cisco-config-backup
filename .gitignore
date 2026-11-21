@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+backup-env.sh
+inventory*.yml
+inventory*.yaml
+!inventory.example.yml
+backups/
+logs/
+*.cfg
+*.log
+known_hosts*
+*.pem
+*.key

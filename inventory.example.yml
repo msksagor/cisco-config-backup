@@ -1,0 +1,12 @@
+devices:
+  - name: branch-router
+    host: 192.0.2.10
+    device_type: cisco_ios
+  - name: campus-core
+    host: 192.0.2.20
+    device_type: cisco_xe
+  - name: datacenter-switch
+    host: 192.0.2.30
+    device_type: cisco_nxos
+    port: 22
+    credential_prefix: DC
